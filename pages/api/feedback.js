@@ -19,7 +19,7 @@ function handler(req, res) {
     };
 
     //* storing data in a file (feedback.json)
-    //-> process.cwd() accesses the rrot directory of the project
+    //-> process.cwd() accesses the root directory of the project
     //# the args after that navigate to the file
     const filePath = path.join(process.cwd(), "data", "feedback.json");
 
